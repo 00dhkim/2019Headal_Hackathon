@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(chartset='utf-8')
+    title
+      대화 내용 업로드
+  body
+    h1
+      대화 내용 업로드하기
+    p
+      카카오톡 대화 내용을 추출한 txt 파일을 업로드해주세요.
+    form(action='upload' method='post' enctype="multipart/form-data")
+      input(type='file' name='userfile')
+      input(type='submit')
